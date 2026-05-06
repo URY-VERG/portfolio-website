@@ -655,3 +655,55 @@ h3 {
     flex-direction: column;
   }
 }
+
+.about-section {
+  padding-top: 10px;
+}
+
+.about-card {
+  position: relative;
+  overflow: hidden;
+  padding: clamp(20px, 3.5vw, 36px);
+  border: 1px solid #a8e6d3;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #0f172a 0%, #10263b 45%, #0b3041 100%);
+  color: #effbff;
+  box-shadow: 0 24px 70px rgba(3, 18, 27, 0.35);
+}
+
+.about-card::after {
+  content: "";
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  right: -80px;
+  top: -120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(66, 237, 206, 0.3), transparent 70%);
+}
+
+.about-card p {
+  position: relative;
+  margin-bottom: 18px;
+  color: #d7ecf5;
+  line-height: 1.75;
+}
+
+.about-card ul {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-card li {
+  padding: 11px 12px;
+  border: 1px solid rgba(197, 241, 255, 0.32);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  font-weight: 700;
+  backdrop-filter: blur(4px);
+}
