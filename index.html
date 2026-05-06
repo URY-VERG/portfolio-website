@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kishor Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio with projects, certificates, skills, learning journey and accounts."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="portfolio-data.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Portfolio home">
+        <span class="brand-mark" data-initials>KP</span>
+        <span>
+          <strong data-name>Kishor</strong>
+          <small data-role>Developer Portfolio</small>
+        </span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="Open navigation" data-menu-button>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" data-nav>
+        <a href="#projects">Projects</a>
+        <a href="#learning">Learning</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#accounts">Accounts</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-band" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow" data-location>India</p>
+          <h1 data-headline>Mi shiktoy, build kartoy, ani pratyek project madhe next level ghet aahe.</h1>
+          <p class="hero-summary" data-summary>
+            Portfolio madhye projects, learning journey, certificates, accounts ani contact details ekach clean
+            place var showcase kele aahet.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="#" data-resume>Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img data-photo src="assets/profile-placeholder.png" alt="Portfolio profile" />
+          <div class="availability" data-availability>
+            Open for internships, freelance work and collaboration
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-strip" aria-label="Portfolio stats" data-stats></section>
+
+      <section class="section-band" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects</h2>
+        </div>
+        <div class="project-grid" data-projects></div>
+      </section>
+
+      <section class="section-band split-section" id="learning">
+        <div class="section-heading sticky-heading">
+          <p class="eyebrow">Growth Map</p>
+          <h2>Mi Kay Shiklo</h2>
+          <div class="skill-wall" data-skills></div>
+        </div>
+        <div class="timeline" data-learning></div>
+      </section>
+
+      <section class="section-band" id="certificates">
+        <div class="section-heading">
+          <p class="eyebrow">Proof of Work</p>
+          <h2>Certificates</h2>
+        </div>
+        <div class="certificate-grid" data-certificates></div>
+      </section>
+
+      <section class="section-band split-section" id="accounts">
+        <div class="section-heading">
+          <p class="eyebrow">Online Presence</p>
+          <h2>Accounts</h2>
+        </div>
+        <div class="account-list" data-accounts></div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Let's build the next project.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" data-email-link href="mailto:your.email@example.com">Email</a>
+          <a class="button secondary" data-phone-link href="tel:+910000000000">Call</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-footer-name>Kishor</span>
+      <span>© <span data-year></span></span>
+    </footer>
+  </body>
+</html>
