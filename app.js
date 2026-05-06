@@ -20,6 +20,21 @@ function createTag(text) {
   return tag;
 }
 
+
+function renderAbout() {
+  setText("[data-about-title]", data.about.title);
+  setText("[data-about-bio]", data.about.bio);
+
+  const list = $("[data-about-highlights]");
+  list.replaceChildren(
+    ...data.about.highlights.map((point) => {
+      const item = document.createElement("li");
+      item.textContent = point;
+      return item;
+    })
+  );
+}
+
 function renderStats() {
   const container = $("[data-stats]");
   container.replaceChildren(
@@ -110,6 +125,8 @@ function renderAccounts() {
       const row = document.createElement("a");
       row.className = "account-row";
       row.href = account.url;
+      row.target = "_blank";
+      row.rel = "noreferrer";
       row.innerHTML = `
         <span>${account.label}</span>
         <strong>${account.handle}</strong>
@@ -151,6 +168,7 @@ function hydrateProfile() {
 }
 
 hydrateProfile();
+renderAbout();
 renderStats();
 renderProjects();
 renderLearning();
