@@ -1,0 +1,6 @@
+dist
+build
+.next
+.env
+*.zip
+*.rar
