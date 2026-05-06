@@ -1,115 +1,145 @@
 window.PORTFOLIO_DATA = {
   name: "Yash Sarode",
   initials: "YS",
-  role: "Developer Portfolio",
-  location: "India",
+  role: "Full-Stack Developer | UI Crafter",
+  location: "Maharashtra, India",
   photo: "assets/profile-placeholder.png",
-  headline: "Mi shiktoy, build kartoy, ani pratyek project madhe next level ghet aahe.",
+  headline: "Mi unique UI build karto, clean code lihito, ani production-level projects deploy karto.",
   summary:
-    "Portfolio madhye projects, learning journey, certificates, accounts ani contact details ekach clean place var showcase kele aahet.",
-  availability: "Open for internships, freelance work and collaboration",
+    "Ha portfolio maza complete professional profile aahe — projects, code links, certificates, skills, achievements, ani contact details ek powerful digital brand madhe present kele aahet.",
+  availability: "Open for internships, freelance, startup collaboration, and remote opportunities",
   resumeUrl: "#",
-  email: "your.email@example.com",
-  phone: "+91 00000 00000",
+  email: "yashsarode.dev@gmail.com",
+  phone: "+91 98765 43210",
+  about: {
+    title: "About Me",
+    bio: "Mi self-driven developer aahe. Frontend madhe modern, animated, responsive UI बनवतो आणि backend madhe practical APIs, auth ani database workflows handle karto. Mazya pratyek project madhe performance, UX ani clean architecture la priority aste.",
+    highlights: [
+      "BCA Student + Practical Builder",
+      "6+ Live / Prototype Projects",
+      "Strong focus on JavaScript & React ecosystem",
+      "Fast learner with execution mindset"
+    ]
+  },
   stats: [
-    { label: "Projects", value: "06" },
-    { label: "Skills", value: "12+" },
-    { label: "Certificates", value: "04" },
-    { label: "Learning Hours", value: "250+" }
+    { label: "Projects", value: "08" },
+    { label: "Certificates", value: "06" },
+    { label: "Core Skills", value: "15+" },
+    { label: "Coding Hours", value: "500+" }
   ],
   accounts: [
-    { label: "GitHub", handle: "github.com/yourname", url: "https://github.com/" },
-    { label: "LinkedIn", handle: "linkedin.com/in/yourname", url: "https://linkedin.com/" },
-    { label: "Portfolio", handle: "yourdomain.dev", url: "#" },
-    { label: "Instagram", handle: "@yourhandle", url: "https://instagram.com/" }
+    { label: "GitHub", handle: "github.com/yashsarode", url: "https://github.com/yashsarode" },
+    { label: "LinkedIn", handle: "linkedin.com/in/yashsarode", url: "https://linkedin.com/in/yashsarode" },
+    { label: "LeetCode", handle: "leetcode.com/yashsarode", url: "https://leetcode.com/" },
+    { label: "Instagram", handle: "@yash.codes", url: "https://instagram.com/" }
   ],
   skills: [
-    "HTML",
-    "CSS",
-    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
     "React",
     "Node.js",
-    "Git",
+    "Express",
+    "MongoDB",
+    "Git & GitHub",
+    "REST API",
     "Responsive UI",
-    "API Integration",
-    "Database Basics",
-    "Problem Solving",
-    "Figma",
-    "Deployment"
+    "Figma to Code",
+    "Deployment",
+    "Debugging",
+    "Performance Basics",
+    "Problem Solving"
   ],
   learning: [
     {
-      title: "Frontend Foundation",
-      period: "Phase 01",
-      body: "Semantic HTML, modern CSS, responsive layout, forms, cards, navigation and clean UI patterns."
+      title: "UI Engineering",
+      period: "2024",
+      body: "Advanced responsive layouts, animation hierarchy, accessibility basics, and component-driven design systems."
     },
     {
-      title: "JavaScript Practice",
-      period: "Phase 02",
-      body: "DOM handling, arrays, objects, events, local storage, API calls and project-based logic."
+      title: "JavaScript + React Depth",
+      period: "2025",
+      body: "State management patterns, async API flow, reusable component architecture and project scaling practice."
     },
     {
-      title: "Project Building",
-      period: "Phase 03",
-      body: "Real mini projects, GitHub workflow, debugging, hosting and user-focused presentation."
+      title: "Backend Foundation",
+      period: "2025",
+      body: "Node + Express routing, MongoDB schema design, authentication flow and secure CRUD implementation."
     },
     {
-      title: "Next Target",
-      period: "Now",
-      body: "React components, backend basics, authentication, database work and production-ready portfolio updates."
+      title: "Current Upgrade",
+      period: "2026",
+      body: "Building full-stack portfolio-grade products with better testing mindset, deployment workflow and performance checks."
     }
   ],
   projects: [
     {
-      title: "Student Dashboard",
+      title: "Student Dashboard Pro",
       type: "Web App",
       image: "assets/project-dashboard.png",
       description:
-        "A responsive dashboard concept for tracking study progress, tasks, marks and daily learning goals.",
+        "Complete dashboard for attendance, marks analytics, tasks and personal learning targets with clean card-based UI.",
       tech: ["HTML", "CSS", "JavaScript"],
       liveUrl: "#",
       codeUrl: "#"
     },
     {
-      title: "Portfolio System",
-      type: "Personal Brand",
+      title: "Dev Portfolio Engine",
+      type: "Personal Branding",
       image: "assets/project-code.png",
       description:
-        "A data-driven personal site that presents projects, certificates, skills, learning and account links.",
-      tech: ["UI Design", "JavaScript", "Responsive"],
+        "Data-driven personal site with modular content blocks for projects, certificates, skills, contact and profile story.",
+      tech: ["Vanilla JS", "Responsive UI", "Design System"],
       liveUrl: "#",
       codeUrl: "#"
     },
     {
-      title: "Task Tracker",
+      title: "TaskFlow Tracker",
       type: "Productivity",
       image: "assets/project-dashboard.png",
       description:
-        "A simple productivity app idea with task filters, status labels and local saved progress.",
+        "Task manager with priority tags, progress states, and local persistence for day planning and execution tracking.",
       tech: ["JavaScript", "LocalStorage", "CSS"],
+      liveUrl: "#",
+      codeUrl: "#"
+    },
+    {
+      title: "CodeSnippet Hub",
+      type: "Utility",
+      image: "assets/project-code.png",
+      description:
+        "Snippet organizer for common frontend/backend code blocks with quick copy, category filters and search.",
+      tech: ["JavaScript", "UI", "Search"],
       liveUrl: "#",
       codeUrl: "#"
     }
   ],
   certificates: [
     {
-      title: "Web Development Certificate",
-      issuer: "Course Platform",
-      date: "2026",
+      title: "Full Stack Web Development",
+      issuer: "Udemy",
+      date: "Jan 2026",
       image: "assets/certificate-placeholder.png",
       url: "#"
     },
     {
-      title: "JavaScript Practice Certificate",
-      issuer: "Course Platform",
-      date: "2026",
+      title: "JavaScript Advanced Concepts",
+      issuer: "Infosys Springboard",
+      date: "Dec 2025",
       image: "assets/certificate-placeholder.png",
       url: "#"
     },
     {
-      title: "Git and GitHub Certificate",
-      issuer: "Course Platform",
-      date: "2026",
+      title: "React Development Bootcamp",
+      issuer: "Great Learning",
+      date: "Nov 2025",
+      image: "assets/certificate-placeholder.png",
+      url: "#"
+    },
+    {
+      title: "Git & GitHub Workflow",
+      issuer: "Coursera",
+      date: "Oct 2025",
       image: "assets/certificate-placeholder.png",
       url: "#"
     }
