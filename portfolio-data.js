@@ -21,6 +21,13 @@ window.PORTFOLIO_DATA = {
       "Currently pursuing BTech IT at PVGCOE, Nashik",
       "Primary Focus: Android App Development",
       "Also skilled in Web Development"
+    title: "Mazi Full Detail",
+    bio: "Mi Yash Sarode. Mi diploma complete kela aahe ani sadhya PVGCOE Nashik (Engineering) madhye shiktoy. Mi frontend + backend donhi var focus karto ani practical project build karun production mindset develop karto.",
+    highlights: [
+      "Diploma Completed",
+      "Currently Engineering Student at PVGCOE Nashik",
+      "Portfolio with Real Projects + Code",
+      "Goal: Become Industry-Ready Software Developer"
     ]
   },
   stats: [
@@ -52,6 +59,7 @@ window.PORTFOLIO_DATA = {
     "Debugging",
     "Problem Solving"
   ],
+  skills: ["HTML5","CSS3","JavaScript","React","Node.js","Express","MongoDB","Git & GitHub","REST API","Responsive UI","Bootstrap","Figma","Deployment","Debugging","Problem Solving"],
   learning: [
     {
       title: "Diploma Completed",
@@ -185,5 +193,27 @@ window.PORTFOLIO_DATA = {
       image: "assets/certificate-placeholder.png",
       url: "#"
     }
+    { title: "Diploma Journey", period: "Completed", body: "Diploma madhye programming basics, web fundamentals ani project execution chi strong base tayar keli." },
+    { title: "Engineering @ PVGCOE Nashik", period: "Current", body: "Engineering madhye data structures, software development concepts, teamwork ani practical implementation var focus karto." },
+    { title: "Frontend to Full-Stack", period: "Ongoing", body: "Responsive UI design pasun backend APIs ani database integration paryant complete web application development practice." },
+    { title: "Career Target", period: "Next", body: "Internship + production-grade projects build karun software industry madhe strong entry gheychi aahe." }
+  ],
+  projects: [
+    { title: "Student Dashboard Pro", type: "Web App", image: "assets/project-dashboard.png", description: "Attendance, marks, assignment tracking ani study progress analytics sathi responsive dashboard.", tech: ["HTML","CSS","JavaScript"], liveUrl: "#", codeUrl: "#" },
+    { title: "Portfolio Website", type: "Personal Branding", image: "assets/project-code.png", description: "Dynamic data-driven portfolio with projects, certificates, contact and education details.", tech: ["HTML","CSS","JavaScript"], liveUrl: "#", codeUrl: "#" },
+    { title: "TaskFlow Tracker", type: "Productivity", image: "assets/project-dashboard.png", description: "Daily tasks manage karayla status, priority ani progress tracking system.", tech: ["JavaScript","LocalStorage","CSS"], liveUrl: "#", codeUrl: "#" },
+    { title: "CodeSnippet Hub", type: "Utility", image: "assets/project-code.png", description: "Reusable code snippets category-wise save/search/copy karaycha tool.", tech: ["JavaScript","UI","Search"], liveUrl: "#", codeUrl: "#" },
+    { title: "Weather App", type: "API Project", image: "assets/project-dashboard.png", description: "Live weather data fetch karun city-wise forecast dakhavnara app.", tech: ["JavaScript","API","CSS"], liveUrl: "#", codeUrl: "#" },
+    { title: "Login/Auth System", type: "Backend Mini Project", image: "assets/project-code.png", description: "User signup-login flow with validation and secure auth basics.", tech: ["Node.js","Express","MongoDB"], liveUrl: "#", codeUrl: "#" }
+  ],
+  certificates: [
+    { title: "Web Development Certificate", issuer: "Course Platform", date: "2024", image: "assets/certificate-placeholder.png", url: "#" },
+    { title: "JavaScript Certificate", issuer: "Course Platform", date: "2024", image: "assets/certificate-placeholder.png", url: "#" },
+    { title: "React Certificate", issuer: "Course Platform", date: "2025", image: "assets/certificate-placeholder.png", url: "#" },
+    { title: "Node.js Certificate", issuer: "Course Platform", date: "2025", image: "assets/certificate-placeholder.png", url: "#" },
+    { title: "MongoDB Basics Certificate", issuer: "Course Platform", date: "2025", image: "assets/certificate-placeholder.png", url: "#" },
+    { title: "Git & GitHub Certificate", issuer: "Course Platform", date: "2025", image: "assets/certificate-placeholder.png", url: "#" },
+    { title: "Responsive Web Design", issuer: "Course Platform", date: "2026", image: "assets/certificate-placeholder.png", url: "#" },
+    { title: "Problem Solving Certificate", issuer: "Course Platform", date: "2026", image: "assets/certificate-placeholder.png", url: "#" }
   ]
 };
